@@ -1,0 +1,287 @@
+* {
+    font-family: 'Work Sans', sans-serif; 
+    
+}
+
+
+/*Header */
+
+.header {
+    background-color: #e4ddcf;
+    height: 975px;
+}
+
+.main-picture {
+    max-width: 100%;
+}
+
+.navbar a {
+    color: #6d6d6d;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+     color: #2e4265;
+     border-bottom: 1px solid #2e4265;
+}
+
+.wrapper-title {
+    margin-top: 15%; 
+    height: 520px;
+
+}
+
+.wrapper-title h1 {
+    font-size: 48pt;
+    font-weight: 600;
+    color: #2e4265;
+    margin-top: 10%;
+    font-family: 'Work Sans', sans-serif; 
+}
+
+.wrapper-title p {
+    font-size: 16pt;
+}
+
+.main-picture {
+    max-width: 100% ;
+
+}
+
+.btn-main {
+   
+    padding: 18px 50px;
+    border-radius: 30px;
+    text-transform: capitalize;
+    background: #d68c6f ;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 5%;
+}
+
+.btn-main:hover {
+    border: 2px solid #d68c6f;
+    color: #d68c6f;
+    background-color: transparent;
+}
+
+
+/*Productivity area */
+
+.prodictivity-area {
+    padding:8%;
+    position: relative;
+}
+
+.line-left {
+    border-left: 6px solid #2e4265;
+    height: 40px;
+    position: absolute;
+    left: 27.3%;
+    top: 5%;
+}
+
+.line-left::after { 
+    content: "01";
+    margin-right: 20px;
+
+}
+
+
+.line-right {
+    border-left: 4px solid #2e4265;
+    height: 40px;
+    position: absolute;
+    right: 27.3%;
+    top: 5%;
+}
+
+.line-c {
+
+    border-left: 4px solid #2e4265;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+}
+
+.line-c::before { 
+    content: "02";
+    top: 100px;
+    font-size: 18pt;
+
+}
+
+
+.line-g {
+    border-bottom: 4px solid #2e4265;
+    width: 45%;
+    position: absolute;
+    left:27.5%;   
+    top: 6.5%;
+
+}
+
+.prod-01 {
+    color: #2e4265;
+    font-size: 36pt;
+    font-family: 'Work Sans', sans-serif; 
+    font-weight: 700;
+    text-orientation: ;
+}
+
+
+.duck-line {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productive-sub {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+
+}
+
+.sub-item {
+    width: 40%;
+}
+
+.sub-item h3 {
+    border-bottom:  6px solid rgba(46, 66, 101, 0.2) ;
+    width: 30%;
+    font-size: 28pt;
+    font-family: 'Work Sans', sans-serif; 
+    font-weight: 800;
+    color: #2e4265;
+}
+
+
+
+/* subscribe area */
+
+.subscribe {
+   background-color: #e4ddcf;
+   padding: 3%;
+}
+
+.subscribe-content {
+   padding: 5%;
+   text-align: center;
+
+}
+
+.subscribe-content h2 {
+   color: #2e4265;
+   font-weight: 700;
+   font-size: 60pt;
+}
+
+.subscribe p {
+   color: #555555;
+   font-weight: 600;
+   font-size: 16pt;
+
+}
+
+.square {
+  background: #d68c6f;
+  width: 46px;
+  height: 46px;
+}
+
+.square i {
+  color: #fff;
+  font-size: 18pt;
+  text-align: center;
+  padding-top:20%;
+}
+
+.form-sub {
+   border-bottom: 2px solid #d68c6f;
+   width: 80%;
+}
+
+.form-group {
+   margin:7%;
+
+}
+
+.form-control {
+    background-color: transparent;
+    border: transparent;
+}
+
+/*Как убрать форму с белым фоном при наведении*/
+
+/*price-area*/
+
+.price-area {
+    padding: 7%;
+
+}
+
+.price-area_item {
+    padding-bottom: 7%;
+}
+
+.price-area_title {
+   padding-top: 10%;
+   align-items: center;
+}
+
+.price-area_title h3{
+    color: #2e4265;
+    font-weight: 700;
+    font-size: 63pt;
+
+}
+
+.price-area_title h4 {
+    color: #d68c6f;
+    font-weight: 700;
+    font-size: 28pt;
+}
+
+.price-area_title p {
+   color: #555555;
+   font-weight: 600;
+   font-size: 13pt;
+
+}
+
+/*Footer area */
+
+.footer {
+   background-color: #2e4265;
+   height: 80px;
+
+}
+
+.footer-title p {
+   padding-top: 25px;
+   color: #6d7b94;
+}
+
+.nav-footer {
+   padding-top: 17px;
+
+}
+
+.nav-footer li a {
+   color: #fff;
+   
+}
+
+
+.footer-sub {
+    display: flex;
+    justify-content: space-between;
+}
